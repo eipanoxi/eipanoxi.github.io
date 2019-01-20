@@ -1,0 +1,33 @@
+
+#lacaleSwitcher {
+    position: absolute;
+    top:5px;
+    right: 5px;
+    padding: 5px;
+}
+
+.switch-locale ul {
+    -webkit-padding-start: 0;
+    list-style-type: none;
+}
+
+.switch-locale li {
+    display: inline-block;
+    border: 1px solid #aaa;
+}
+
+.switch-locale li>a {
+    min-width: 28px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    text-align: center
+}
+
+.switch-locale li>a:hover {
+    background: #eee
+}

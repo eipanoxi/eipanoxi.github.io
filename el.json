@@ -1,0 +1,26 @@
+{
+  "@metadata": {
+    "authors": ["test"],
+    "last-updated": "2016-10-25",
+    "locale": "el"
+  },
+  "app-header": "EL",
+  "form-firstname": "Όνομα:",
+  "form-lastname": "Επώνυμο:",
+  "form-fathersname": "Πατρώνυμο:",
+  "form-birth": "Γέννηση:",
+  "form-birthplace": "Τόπος:",
+  "form-yearofbirth": "Έτος:",
+  "form-monthofbirth": "Μήνας:",
+  "form-email": "Ηλεκρονική διεύθυνση:",
+  "app-declaration": "<p>Η ανακοινωση.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.</p>",
+  "form-success": "Παρακαλούμε ακολουθείστε το σύνδεσμο που σας στείλαμε στην ηλεκτρονική σας θυρίδα για την επιτυχή εγγραφή σας",
+  "form-error": "Λάθος. Παρακαλούμε προσπαθείστε αργότερα.",
+  "form-errormail": "Λάθος ηλεκτρονική διεύθυνση. Refresh the page",
+  "form-errormonth": "Λάθος Μήνας. Refresh the page",
+  "form-erroryear": "Λάθος Χρονιά. Refresh the page",
+  "form-errorcountry": "Λάθος Χώρα. Refresh the page",
+  "form-errorfirstname": "Λάθος Όνομα. Refresh the page",
+  "form-errorlastname": "Λάθος Επώνυμο. Refresh the page",
+  "form-errorfathersname": "Λάθος Πατρώνυμο. Refresh the page"
+}

@@ -1,0 +1,26 @@
+{
+  "@metadata": {
+    "authors": ["test"],
+    "last-updated": "2016-10-25",
+    "locale": "en"
+  },
+  "app-header": "EN",
+  "form-firstname": "First Name:",
+  "form-lastname": "Last Name:",
+  "form-fathersname": "Father's Name:",
+  "form-birth": "Birth:",
+  "form-birthplace": "Place:",
+  "form-yearofbirth": "Year:",
+  "form-monthofbirth": "Month:",
+  "form-email": "Email:",
+  "app-declaration": "<p>The declaration goes here.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.</p>",
+  "form-success": "Thank you. Please follow the link in your email for finalizing the registration.",
+  "form-error": "Please try again later.",
+  "form-errormail": "Wrong email address. Refresh the page",
+  "form-errormonth": "Invalid Month. Refresh the page",
+  "form-erroryear": "Invalid Year. Refresh the page",
+  "form-errorcountry": "Invalid Country. Refresh the page",
+  "form-errorfirstname": "Invalid First Name. Refresh the page",
+  "form-errorlastname": "Invalid Last Name. Refresh the page",
+  "form-errorfathersname": "Invalid Father's Name. Refresh the page"
+}
