@@ -1,3 +1,12 @@
+window.addEventListener('message', function(event) {
+    //var origin = event.origin || event.originalEvent.origin; // For Chrome, the origin property is in the event.originalEvent object.
+    //if (origin !== /*the container's domain url*/)
+    //    return;
+    if (typeof event.data == 'object' && event.data.call=='data-lang') {
+        console.log(event.data.value);
+    }
+}, false);
+
 var countryList = [
   "Afghanistan",
   "Albania",
@@ -257,7 +266,7 @@ $("#switchlocale").on("click", "a", function(e) {
 });
 
 $.i18n({
-  locale:  parent.document.getElementById("an id").getAttribute("data-lang")
+  locale: 'en'
 })
   .load({
     en: "https://eipanoxi.github.io/en.json",
