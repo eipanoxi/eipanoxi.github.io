@@ -257,7 +257,7 @@ $("#switchlocale").on("click", "a", function(e) {
 });
 
 $.i18n({
-  locale: window.frameElement.getAttribute("data-lang")
+  locale: 'en' // window.frameElement.getAttribute("data-lang")
 })
   .load({
     en: "https://eipanoxi.github.io/en.json",
