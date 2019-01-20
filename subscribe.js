@@ -260,8 +260,8 @@ $.i18n({
   locale: window.frameElement.getAttribute("data-lang")
 })
   .load({
-    en: "i18n/en.json",
-    el: "i18n/el.json"
+    en: "en.json",
+    el: "el.json"
   })
   .done(function() {
     translate();
