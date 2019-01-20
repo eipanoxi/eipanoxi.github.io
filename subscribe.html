@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title></title>
+    <style>
+        *{margin:0;padding:0}
+        html, body {height:100%;width:100%;}
+        
+    </style>
+    <link rel="stylesheet" href="css/subscribe.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.messagestore.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.5/jquery.i18n.fallbacks.min.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div id="lacaleSwitcher" class="locale">
+        <ul id="switchlocale" class="switch-locale">
+          <li><a href="#" data-locale="en">EN</a></li>
+          <li><a href="#" data-locale="el">EL</a></li>
+        </ul>
+      </div>
+
+      <div class="flex-container wrapper">
+        <div id="content" class="content first">
+          Content
+          <p>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            sasasasasasasasassssssssssssssssssssssssssssssss<br>
+            
+          </p>
+        </div>
+
+        <div id="registration" class="register second">
+          <form id="registerForm">
+            <label
+              for="firstName"
+              class="translate"
+              data-args="form-firstname"
+            ></label>
+            <input  type="text" id="firstName" name="firstname" value="" />
+            <label
+              for="lastName"
+              class="translate"
+              data-args="form-lastname"
+            ></label>
+            <input type="text" id="lastName" name="lastname" value="" />
+            <label
+              for="fathersName"
+              class="translate"
+              data-args="form-fathersname"
+            ></label>
+            <input type="text" id="fathersName" name="fathersname" value="" />
+            <label
+              class="translate"
+              data-args="form-birth"
+            ></label>
+            <table>
+              <td width="45%">
+                <label
+                  for="birthPlace"
+                  class="translate"
+                  data-args="form-birthplace"
+                ></label>
+                <select id="birthPlace" name="birthplace"></select>
+              </td>
+              <td width="25%">
+                <label
+                  for="yearOfBirth"
+                  class="translate"
+                  data-args="form-yearofbirth"
+                ></label>
+                <select name="yearpicker" id="yearOfBirth"></select>
+              </td>
+              <td width="30%">
+                <label
+                  for="monthOfBirth"
+                  class="translate"
+                  data-args="form-monthofbirth"
+                ></label>
+                <select name="monthpicker" id="monthOfBirth"></select>
+              </td>
+            </table>
+            <label
+              for="email"
+              class="translate"
+              data-args="form-email"
+            ></label>
+            <input type="text" id="email" name="email" value="" />
+            <input id="submit" type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/subscribe.js"></script>
+  </body>
+</html>
