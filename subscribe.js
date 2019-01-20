@@ -260,8 +260,8 @@ $.i18n({
   locale: window.frameElement.getAttribute("data-lang")
 })
   .load({
-    en: "en.json",
-    el: "el.json"
+    en: "https://eipanoxi.github.io/en.json",
+    el: "https://eipanoxi.github.io/el.json"
   })
   .done(function() {
     translate();
